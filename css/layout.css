@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0 auto; padding:0 auto; }
+
+/*公共样式*/
+
+body { border:none; }
+.main { width:1002px; margin:0 auto; }
+.fl { float:left; }
+.fr { float:right; }
+.cl { clear:both; }
+ul,ul li,ol,ol li { list-style-type:none; }
+a { text-decoration:none; }
+img { border:none; }
+
+
+/*网页头部banner*/
+.head { background:url(../img/wy_01.jpg) no-repeat center; width:100%; height:564px; margin:a auto; }
+
+/*项目特色*/
+
+.xmts { width:100%; height:490px; background:#f7f7f7; }
+.xmts h1 { background:url(../img/wy_xmts.jpg) no-repeat center; width:100%; height:37px; margin:25px auto 0; display:inline; }
+.xmts_left { width:460px; margin-top:75px; margin-left:60px; position:relative; display:inline; } 
+.xmts_left p { font-size:14px; font-family:"微软雅黑"; color:#333333; line-height:30px; text-indent:2em; }
+.left { position:absolute; left:-32px; top:-5px; }
+.right { position:absolute; right:-28px; bottom:-5px; }
+.xmts ul { width:420px; margin-top:83px; list-style-position:inside; }
+.xmts ul li { float:left; margin-bottom:2px; width:206px; height:122px; margin-left:2px; }
+.xmts ul li a { width:206px; height:122px; display:block; display:inline; }
+
+/*近四年招生数据*/
+
+.zssj { width:100%; background:#d9e2e1; height:520px; }
+.zssj h1 {  background:url(../img/wy_zssj.jpg) no-repeat center; width:100%; height:35px; margin:45px auto 0; display:inline; }
+.zssj_01 img { margin-top:53px; width:1001px; height:292px; display:inline; }
+
+/*2016年招生信息*/
+
+.zsxx { height:420px; width:100%; background:#e9eded; }
+.zsxx h1 {  background:url(../img/wy_zsxx.jpg) no-repeat center; width:100%; height:35px; margin:45px auto 0; display:inline; }
+.zsxx_left { width:122px; height:251px; background:#d7e2e2; margin-top:40px; display:inline; }
+.zsxx_left dt { font-size:18px; font-family:"微软雅黑"; color:#666666; margin-top:15px; margin-left:20px; }
+.zsxx_left dd { font-size:12px; font-family:"微软雅黑"; color:#666666; margin-left:10px; line-height:24px; margin-top:15px; width:100px; }
+.zsxx_center { width:468px; height:251px; background:#d7e2e2; margin-left:10px; margin-top:40px; display:inline; }
+.zsxx_center dt { font-size:18px; font-family:"微软雅黑"; color:#666666; margin-top:15px; margin-left:200px; }
+.zsxx_center dd { font-size:12px; font-family:"微软雅黑"; color:#666666; margin-left:10px; line-height:24px; margin-top:15px; 
+                  width:445px; text-indent:2em; }
+.zsxx_right { width:392px; height:251px; background:#d7e2e2; margin-left:10px; margin-top:40px; display:inline; }
+.zsxx_right dt { font-size:18px; font-family:"微软雅黑"; color:#666666; margin-top:15px; margin-left:147px; }
+.zsxx_right dd { font-size:12px; font-family:"微软雅黑"; color:#666666; margin-left:17px; line-height:24px; margin-top:15px; 
+                 width:364px; text-indent:2em; }
+
+/*提前面试*/
+
+.tqms { height:653px; width:100%; background:#dadede; }
+.tqms h1 {  background:url(../img/wy_tqms.jpg) no-repeat center; width:100%; height:36px; margin:35px auto 0; display:inline; }
+.tqma_01 dl dt { background:url(../img/wy_10.jpg) no-repeat; height:66px; margin-top:32px; color:#fff; font-size:14px;
+                 font-family:"微软雅黑"; padding-top:40px; padding-left:180px; }
+.tqma_01 dl dd img { display:block; padding-top:55px; }
+
+/*现场提交书面材料*/
+
+.smcl { height:603px; width:100%; background:#dadede; }
+.smcl h1 { font-size:24px; color:#336633; font-family:"微软雅黑"; font-weight:normal; }
+.smcl_left { margin-top:17px; width:457px; height:378px; }
+.smcl_left ul { padding:0px; }
+.smcl_left ul li { float:left; width:149px; height:129px; margin-right:10px; background:#e1e6e6; }
+.smcl_left ul li span { color:#575957; font-size:14px; line-height:40px; font-family:"微软雅黑"; width:126px; display:block; }
+.smcl_dt dt p { width:196px; height:80px; background:#e1e6e6; float:left; margin-top:10px; }
+.smcl_dt dt p span { color:#575957; width:185px; font-size:14px; line-height:35px; font-family:"微软雅黑"; display:block; }
+.smcl_dt { width:196px; }
+.smcl_dt dd { width:196px; height:77px; background:#e1e6e6; margin-top:10px; }
+.smcl_dt dd span { color:#575957; width:185px; font-size:14px; line-height:35px; font-family:"微软雅黑"; display:block; }
+.smcl_dl { margin-left:10px; width:251px; }
+.smcl_dl dt { width:251px; height:152px; background:#e1e6e6; margin-top:10px; }
+.smcl_dl dt span { color:#575957; width:235px; font-size:14px; line-height:35px; font-family:"微软雅黑"; display:block; }
+.smcl_dl dd { width:251px; height:77px; background:#e1e6e6; margin-top:10px; }
+.smcl_dl dd span { color:#575957; width:235px; font-size:14px; line-height:35px; font-family:"微软雅黑"; display:block; }
+.smcl_right { margin-top:17px; width:535px; display:inline; height:378px; }
+.smcl_right p { width:535px; height:169px; background:#e1e6e6; }
+.smcl_right p span { color:#575957; width:500px; font-size:14px; line-height:40px; font-family:"微软雅黑"; display:block; }
+.smcl_right dl dt { margin-top:10px; display:inline; width:251px; }
+.smcl_right dl dt b { font-weight:normal; width:251px; height:143px; display:block; background:#e1e6e6; }
+.smcl_right dl dt b span { color:#575957; width:217px; font-size:14px; line-height:35px; font-family:"微软雅黑"; display:block;  }
+.smcl_right dl dt i { width:251px; height:46px; display:block; background:#e1e6e6; margin-top:10px; font-style:normal; }
+.smcl_right dl dt i span { color:#575957; width:217px; font-size:14px; line-height:35px; font-family:"微软雅黑"; display:block;  }
+.smcl_right dl dd img { display:block; padding-top:10px; padding-left:10px; display:inline; }
+.smcl_01 input { background:url(../img/wy_13.jpg) no-repeat; width:202px; height:70px; margin-right:40px; border:none; 
+                 margin-top:53px; cursor:pointer; display:inline; }             
+
+/*联系我们*/
+
+.lxwm { background:url(../img/wy_14.jpg) no-repeat center; width:100%; height:419px; } 
+.lxwm_01 ul { margin-top:145px; }
+.lxwm_01 ul li { color:#47697b; font-size:14px; font-family:"微软雅黑"; margin-bottom:35px; }
+
+/*网页底部*/
+
+.foot { height:213px; background:#070c13; width:100%; }
+.footer span { display:block; width:254px; height:37px; margin-left:40px; margin-top:45px; }
+.footer ul { margin-top:37px; padding:0px; margin-left:65px; }
+.footer ul li { color:#fff; font-family:"微软雅黑"; font-size:12px; margin-bottom:20px; }
+.footer b { display:block; width:106px; height:95px; margin-left:140px; margin-top:37px; }
